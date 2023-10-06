@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Car Sale</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <img src="images/logo.png" class="logo"><h1>HomeOfCars</h1></img>
+            <ul class="navbar">
+                <li><a href="homepage.html">Home</a></li>              
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="search.php"> Search Cars</a></li>
+                <li><a href="addcar.php">Sell Car</a></li>
+                <li><a href="register.php">Login/Register</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <form id="login-form">
+            <h1>Login Before Adding Car</h1>
+            Enter username:
+            <input type="text" id="username" name="username"  placeholder="Username" required>
+            Enter password:
+            <input type="password" id="password" name=  "password" placeholder="Password" required>
+            <button type="submit" id="login-button">Login</button>
+            
+            Don't have account?
+            <a href="register.html">Register Here</a><br><br>
+            <a href="addcar.html">ADD Car</a>
+
+        </form>
+        <script src="script.js"></script>
+      </main>
+  </body>
+  </html>
